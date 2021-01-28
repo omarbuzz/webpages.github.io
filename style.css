@@ -1,0 +1,47 @@
+body {
+font-family: 'Open Sans', sans-serif;
+margin: 0 auto;
+width:960px;
+}
+h1, h2, h3 {
+color:red;
+}
+aside {
+width:280px;
+float:right;
+background-color: white;
+text-align:center;
+font-weight:bold;
+padding:20px;
+margin-left:20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+display:inline;
+float:left;
+}
+nav a:link, nav a:visited {
+background-color:red;
+color: dark black;
+display:block;
+width:320px;
+text-align:center;
+padding: 10px 0;
+}
+nav a:hover {
+background-color:black;
+}
+header {
+background-image: url("Images/bullets.jpg");
+height:100px;
+margin-bottom:50px;
+}
+header h1 {
+color:rgba(256,256,256,.8);
+margin-left:30px;
+margin-top:30px;
+font-size:50px;
+}
